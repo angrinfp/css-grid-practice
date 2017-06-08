@@ -1,5 +1,5 @@
 {
-  "name": "css-grid-practice",
+  "name": "flexbox",
   "scripts": {
   },
   "env": {
@@ -10,6 +10,8 @@
 
   ],
   "buildpacks": [
-
+    {
+      "url": "heroku/php"
+    }
   ]
 }
