@@ -1,0 +1,35 @@
+body {
+	color: #222;
+	display: grid;
+	grid-template-columns: 20% 60% 20%;
+	grid-template-rows: 100px 400px 150px;
+	grid-template-areas:
+	"header header header"
+	"nav article aside"
+	"footer footer footer";
+}
+
+header {
+	grid-area: header;
+	background: lightgreen;
+}
+
+nav {
+	grid-area: nav;
+	background: lightblue;
+}
+
+article {
+	grid-area: article;
+	background: lightyellow;
+}
+
+aside {
+	grid-area: aside;
+	background: orange;
+}
+
+footer {
+	grid-area: footer;
+	background: red;
+}

@@ -1,0 +1,53 @@
+.container {
+	color: #fff;
+	display: grid;
+	font-size: 24px;
+	grid-template-areas:
+	"a a b"
+	"c d d"
+	"e e e";
+	grid-column-gap: 10px;
+	grid-row-gap: 10px;
+	grid-template-columns: 200px 200px 400px;
+	grid-template-rows: repeat(3,100px);
+}
+
+.a {
+	background: #444;
+	border-radius: 10px;
+	grid-area: a;
+	padding-left: 20px;
+	padding-top: 30px;
+}
+
+.b {
+	background: #444;
+	border-radius: 10px;
+	grid-area: b;
+	padding-left: 20px;
+	padding-top: 30px;
+}
+
+.c {
+	background: #444;
+	border-radius: 10px;
+	grid-area: c;
+	padding-left: 20px;
+	padding-top: 30px;
+}
+
+.d {
+	background: #444;
+	border-radius: 10px;
+	grid-area: d;
+	padding-left: 20px;
+	padding-top: 30px;
+}
+
+.e {
+	background: #444;
+	border-radius: 10px;
+	grid-area: e;
+	padding-left: 20px;
+	padding-top: 30px;
+}
